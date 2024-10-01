@@ -1,0 +1,51 @@
+workflow.json
+*score*.json
+# .NET Core
+bin/
+obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.vspscc
+*.vssscc
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.idea_modules/
+.idea_modules.xml
+.idea_workspace.xml
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.sln.docstates
+
+# Other
+*.DS_Store
