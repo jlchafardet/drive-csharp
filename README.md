@@ -1,5 +1,7 @@
 # Drive Game
 
+![Drive Game](https://i.imgur.com/yJRVg6x.png))
+
 ## Description
 
 Drive Game is a simple console-based driving simulation game where the player controls a car represented by an upward arrow (`■`) on a scrolling road. The objective is to navigate the car through the road while avoiding obstacles.
