@@ -4,7 +4,7 @@ using System.Threading;
 class DriveGame
 {
     static char car = '■'; // Changed car symbol to the extended ASCII character 254 (■)
-    static int carPosition = 28; // Initial position of the car (0-59, centered on a 60-character road)
+    static int carPosition = 28; // Initial position of the car (0-59, centered on a 10-character road)
     static int speed = 100; // Speed of the game in milliseconds (1000 ms = 1 second)
     static Random random = new Random(); // Random number generator for road generation
     static string[] roadRows = new string[12]; // Array to hold the road rows
