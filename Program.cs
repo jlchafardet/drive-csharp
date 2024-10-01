@@ -61,15 +61,14 @@ class DriveGame
         Console.Clear(); // Clear the console for the new frame
 
         // Draw the top border of the box
-        Console.WriteLine("════════════════════════════════════════════════════════════════");
-        
+        Console.WriteLine("╔══════════════════════════════════════════════════════════════╗");
+        Console.Write('║'); // Left border
         // Draw the game title centered
         string title = "DRIVE";
         int titlePosition = (64 - title.Length) / 2; // Center the title
-        Console.WriteLine(new string(' ', titlePosition) + title); // Print the title
-
+        Console.WriteLine(new string(' ', titlePosition) + title + new string(' ', ((64 - title.Length) / 2)-1) + '║'); // Print the title
         // Draw the title border
-        Console.WriteLine("════════════════════════════════════════════════════════════════");
+        Console.WriteLine("╠══════════════════════════════════════════════════════════════╣");
 
         // Draw each row of the road
         for (int i = 0; i < roadRows.Length; i++)
@@ -85,7 +84,7 @@ class DriveGame
         Console.WriteLine(car); // Draw the car at its current position
 
         // Draw the bottom border of the box
-        Console.WriteLine("════════════════════════════════════════════════════════════════");
+        Console.WriteLine("╠══════════════════════════════════════════════════════════════╣");
 
         // Draw exit prompt with borders
         string exitPrompt = "Press 'X' to exit the game.";
@@ -94,7 +93,7 @@ class DriveGame
         Console.Write('║'); // Reverted left border for exit prompt back to the original character (║)
         Console.Write(new string(' ', exitPosition) + exitPrompt); // Print the exit prompt
         Console.WriteLine(new string(' ', leftMostPosition) + '║'); // Right border for exit prompt
-        Console.WriteLine("════════════════════════════════════════════════════════════════");
+        Console.WriteLine("╚══════════════════════════════════════════════════════════════╝");
     }
 
     static void ScrollRoad()

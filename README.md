@@ -1,6 +1,6 @@
 # Drive Game
 
-![Drive Game](https://i.imgur.com/yJRVg6x.png)
+![Drive Game](https://i.imgur.com/4HiKGkm.png)
 
 ## Description
 
@@ -39,4 +39,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 
-This project is licensed under the MIT License.╠
+This project is licensed under the MIT License.
