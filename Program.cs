@@ -85,7 +85,7 @@ class DriveGame
 
         // Draw the bottom border of the box
         Console.WriteLine("╠══════════════════════════════════════════════════════════════╣");
-
+        
         // Draw exit prompt with borders
         string exitPrompt = "Press 'X' to exit the game.";
         int exitPosition = (64 - exitPrompt.Length) / 2; // Center the exit prompt
