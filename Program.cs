@@ -3,7 +3,7 @@ using System.Threading;
 
 class DriveGame
 {
-    static char car = '^'; // Car symbol represented by an upward arrow
+    static char car = '■'; // Changed car symbol to the extended ASCII character 254 (■)
     static int carPosition = 28; // Initial position of the car (0-59, centered on a 60-character road)
     static int speed = 100; // Speed of the game in milliseconds (1000 ms = 1 second)
     static Random random = new Random(); // Random number generator for road generation
@@ -91,8 +91,7 @@ class DriveGame
         string exitPrompt = "Press 'X' to exit the game.";
         int exitPosition = (64 - exitPrompt.Length) / 2; // Center the exit prompt
         int leftMostPosition = (((64 - exitPrompt.Length) / 2)-1);
-        //Console.WriteLine("════════════════════════════════════════════════════════════════");
-        Console.Write('║'); // Left border for exit prompt
+        Console.Write('║'); // Reverted left border for exit prompt back to the original character (║)
         Console.Write(new string(' ', exitPosition) + exitPrompt); // Print the exit prompt
         Console.WriteLine(new string(' ', leftMostPosition) + '║'); // Right border for exit prompt
         Console.WriteLine("════════════════════════════════════════════════════════════════");
