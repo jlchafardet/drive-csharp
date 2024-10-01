@@ -2,7 +2,7 @@
 
 ## Description
 
-Drive Game is a simple console-based driving simulation game where the player controls a car represented by an upward arrow (`^`) on a scrolling road. The objective is to navigate the car through the road while avoiding obstacles.
+Drive Game is a simple console-based driving simulation game where the player controls a car represented by an upward arrow (`■`) on a scrolling road. The objective is to navigate the car through the road while avoiding obstacles.
 
 ## Features
 
@@ -22,8 +22,8 @@ Drive Game is a simple console-based driving simulation game where the player co
 
 - **Left Arrow**: Move the car left.
 - **Right Arrow**: Move the car right.
-- **Up Arrow**: Accelerate the car.
-- **Down Arrow**: Deaccelerate the car.
+- **Up Arrow**: Accelerate the car. (not implemented yet)
+- **Down Arrow**: Deaccelerate the car. (not implemented yet)
 - **X**: Exit the game.
 
 ## Code Structure
