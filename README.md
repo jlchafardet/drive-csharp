@@ -1,6 +1,6 @@
 # Drive Game
 
-![Drive Game](https://i.imgur.com/yJRVg6x.png))
+![Drive Game](https://i.imgur.com/yJRVg6x.png)
 
 ## Description
 
